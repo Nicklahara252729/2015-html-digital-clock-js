@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "MS Serif", "New York", serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	background-color:#FF0;
+}
+
+.utama {
+	margin: auto;
+	width: 1000px;
+}
+.header {
+	background-image: url(../Image/n.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 1000px;
+	height:160px;
+}
+.menu{
+	width: 1000px;
+	line-height:50px;
+}
+.menu ul ul {
+	display: none;
+	text-align: center;
+}
+.menu ul li:hover>ul {
+	display: block;
+}
+.menu ul {
+	background-color: #00BFFF;
+	display: inline-table;
+	padding-top: 0px;
+	padding-left: 196px;
+	padding-right: 195px;
+	list-style-type: none;
+	position: relative;
+	border-radius:5;
+	text-align: center;
+}
+.menu ul:after {
+	display: block;
+	clear: both;
+	content:"";
+}
+.menu ul li {
+	float: left;
+}
+.menu ul li:hover {
+	color: #FFF;
+}
+.menu ul li a {
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	padding-top: 9px;
+	padding-right: 59px;
+}
+.menu ul ul {
+	background-color: #009FFF;
+	display: none;
+	padding: 0px;
+	position: absolute;
+	top: 100%;
+	border-radius:0px;
+}
+.menu ul ul li {
+	float: none;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #009FFF;
+	border-bottom-color: #009FFF;
+	position: relative;
+}
+menu ul ul li a {
+	color: #FFF;
+	padding-top: 100px;
+	padding-right: 50px;
+}
+menu ul ul li a :hover {
+	background-color:#000000;
+}
+
+.menu ul ul ul {
+	position: absolute;
+	left: 100px;
+	top: 50px;
+}
+.isi {
+	background-color: #FFA;
+	float: left;
+	height: auto;
+	width: 1000px;
+	height:300px;
+}
+.footer {
+	background-color: #00BFFF;
+	float: left;
+	height: 100px;
+	width: 1000px;
+}
+.bottom {
+	font-family: "Wolf in the City", "MS Outlook";
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	word-spacing: 8px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: center;
+}
+.bottom a {
+	color: #FFF;
+	text-decoration: none;
+}
+.bottom a:hover {
+	color: #FF0;
+	text-decoration: underline;
+}
+.bottom a:active {
+	color: #FFF;
+	text-decoration: blink;
+}
+.copy {
+	font-family: "Wolf in the City", "MS Outlook";
+	font-size: 20px;
+	text-align: center;
+	margin-top: 4px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color:#FFF
+}
+.copy a {
+	color: #FFF;
+	text-decoration: none;
+}
+.copy a:hover {
+	color: #FF0;
+	text-decoration: underline;
+}
+.copy a:active {
+	color: #FFF;
+	text-decoration: blink;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="Style/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<script type="text/javascript">
+/*function subs(){
+var txtbx = document.getElementById('mytextbox').value;
+if(txtbx.length == 0){
+alert('please enter a real value');
+return;
+	}
+	var judul = document.getElementById('title');
+	judul.innerHTML = txtbx;
+}*/
+/*var nick = true;  
+  alert(typeof nick);
+  var angka1 = 12;
+  var angka2 = 13;
+  var hasil = angka1 + angka2;
+  alert (hasil);*/
+    /*var baru = "nick" + "lahara";
+    var baru = "oo \" damn \" life.";
+    var baru = 'nico gawa lahara';
+    var baru = "nico \ngawa \nlahara";
+    alert(baru);*/
+    /*var aa = 32;
+    var bb = 31;
+    if (aa >30){
+        alert("lebih dari 30");
+    }else if (aa <30){
+        alert("lebih kecil");
+    }else if (aa == 30){
+        alert(" sama aja");
+    }
+    if (aa >30 && bb>30){
+        alert('lebih operator and');
+    }else if (aa == 30 || bb ==30){
+        alert ('operator or');
+    }*/
+    /*var nama = "nick";
+    switch (nama)
+    {
+        case "lahara":
+            document.write("who are you ?");
+            break;
+        case "nick":
+            document.write("welcome my king");
+            break;
+        default: 
+            document.write("get out");
+            break;
+    }*/
+    /*var sekarang = new Date();
+    var jam = sekarang.getHours();
+    switch(true)
+        {
+            case (jam > 8 && jam < 12):
+                document.write("moring");
+                break;
+            case (jam === 12):
+                document.write("makan siang");
+            case (jam >13 && jam < 18):
+                document.write("push up malam");
+                break;
+            default:
+                document.write("damn");
+                break;
+        }*/
+		/*var sekarang = new Date();
+    var jam = sekarang.getHours();
+    var menit = sekarang.getMinutes();
+    var detik = sekarang.getSeconds();
+    document.write(jam);
+    document.write(menit);
+    document.write(detik);*/
+    window.setTimeout("waktu()",1000); 
+    function waktu() { 
+        var tanggal = new Date(); 
+        setTimeout("waktu()",1000); 
+        document.getElementById("tanggalku").innerHTML = tanggal.getHours()+":"+tanggal.getMinutes()+":"+tanggal.getSeconds(); 
+    }
+</script>
+<h1 id="title">javascript tutorial</h1>
+<input type="text" id="mytextbox"/>
+<input type="submit" value="click me" onclick="subs()"/>
+    <table align=center style="border:1px solid black" bgcolor="#FFBBCC"><tr><td> <div id="tanggalku"> </div></td></tr> </table>
+</body>
+</html>
